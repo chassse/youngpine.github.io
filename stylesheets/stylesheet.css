@@ -110,6 +110,12 @@ hr {
   margin-top:2px;
   background: transparent url('../images/hr.png') no-repeat;
 }
+.post-title{
+  font-size: 22px;
+  font-weight: bold;
+  color: #303030;
+  margin-bottom: 8px;
+}
 .pull-right{
 	font-size:14px;
 	float:right;
@@ -117,6 +123,7 @@ hr {
 .read-more{
 	font-size:14px;
 	padding:0 6px;
+	color:blue;
 }
 
 
