@@ -53,11 +53,11 @@ body {
 a {
   text-decoration: none;
 }
-a :link{
+a:link{
   color: #000;
   cursor:auto;
 }
-a :visited{
+a:visited{
   color: #000;
 }
 a:hover {
@@ -127,8 +127,8 @@ hr {
 	padding:0 6px;
 	color:blue;
 }
-.pull-right a :link,.read-more a :link{color:blue;}
-.pull-right a :visited,.read-more a :visited{color:blue;}
+.pull-right a :link,.read-more a:link{color:blue;}
+.pull-right a :visited,.read-more a:visited{color:blue;}
 .pager li{
     font-size:14px;
 }
