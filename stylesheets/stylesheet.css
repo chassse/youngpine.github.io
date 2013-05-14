@@ -127,8 +127,10 @@ hr {
 	padding:0 6px;
 	color:blue;
 }
-.pull-right a :link,.read-more a:link{color:blue;}
-.pull-right a :visited,.read-more a:visited{color:blue;}
+.pull-right a:link{color:blue;}
+.read-more a:link{color:blue;}
+.pull-right a:visited{color:blue;}
+.read-more a:visited{color:blue;}
 .pager li{
     font-size:14px;
 }
