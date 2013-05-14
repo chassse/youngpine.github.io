@@ -13,7 +13,7 @@
 
 				{{ content }}
 
-				<ol>
+				<ol class="pager">
 					{% if page.previous %}
 					<li class="previous"><a href="{{ page.previous.url }}">上一篇：{{ page.previous.title }}</a></li>
 					{% else %}
@@ -32,9 +32,8 @@
 					{% endif %}
 				</ol>
 	</div>
-</div>
-
 {% include footer.md %}
+</div>
 <script type="text/javascript" src="/javascripts/main.js"></script>
 </body>
 </html>
