@@ -3,8 +3,6 @@
 <head>
 	<title>{{ page.title }}- {{ site.title }}</title>
 	{% include meta-icon-link.md %}
-	{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
-	{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 </head>
 <body>
 <div id="container">
@@ -33,10 +31,6 @@
 					</li>
 					{% endif %}
 				</ul>
-
-				<div class="box">
-				{% include comment.md %}
-				</div>
 	</div>
 </div>
 
