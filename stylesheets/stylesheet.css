@@ -128,9 +128,9 @@ hr {
 	color:blue;
 }
 .pull-right a:link{color:blue;}
-.read-more a:link{color:blue;}
+.read-more:link{color:blue;}
 .pull-right a:visited{color:blue;}
-.read-more a:visited{color:blue;}
+.read-more:visited{color:blue;}
 .pager li{
     font-size:14px;
 }
