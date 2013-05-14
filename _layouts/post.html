@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ page.title }}- {{ site.title }}</title>
+	{% include meta-icon-link.md %}
+	{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+	{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+</head>
+<body>
+<div id="container">
+      <div class="inner">
+      
+{% include header.md %}
+					<h2>{{ page.title }}</h2>
+
+				{{ content }}
+
+				<ul class="pager">
+					{% if page.previous %}
+					<li class="previous"><a href="{{ page.previous.url }}">&larr; {{ page.previous.title }}</a></li>
+					{% else %}
+					<li class="previous disabled">
+					<a href="#">没有了</a>
+					</li>
+					{% endif %}
+					{% if page.next %}
+					<li class="next">
+					<a href="{{ page.next.url }}">{{ page.next.title }} &rarr;</a>
+					</li>
+					{% else %}
+					<li class="next disabled">
+					<a href="{{ page.next.url }}">没有了</a>
+					</li>
+					{% endif %}
+				</ul>
+
+				<div class="box">
+				{% include comment.md %}
+				</div>
+	</div>
+</div>
+
+{% include footer.md %}
+
+{% include comment-count.md %}
+<script type="text/javascript" src="/javascripts/main.js"></script>
+</body>
+</html>
