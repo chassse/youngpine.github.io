@@ -9,4 +9,3 @@ disqus:
   short_name: "youngpine-github"
 paginate: 10
 exclude: [start-jekyll.bat, Github.sln, Github.v11.suo]
-safe:false
