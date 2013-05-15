@@ -1,7 +1,7 @@
 ---
 title: Hello world
 layout: post
-category:yes
+tags: [参考]
 ---
 
 My world, my word!!!
