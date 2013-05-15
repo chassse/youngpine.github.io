@@ -1,7 +1,7 @@
 ---
 title: 你好
 layout: post
-tags: [教程,参考]
+catagory:jekyll
 ---
 
 你好

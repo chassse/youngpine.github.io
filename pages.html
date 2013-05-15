@@ -3,13 +3,11 @@ title: 全部文章
 layout: default
 ---
 
-<ol class="tag-list">
-{% for tag in site.tags %}
-<h3 id="{{ tag[0] }}-ref">{{ tag[0] }}</h3>
 <ol>
-	{% for post in tag[1] %}
-		<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-	{% endfor %}
-</ol>
-{% endfor %}
-</ol>
+3    //这里使用了 Jekyll 语法，会被编译，所以加多个"\"
+4    {\% for category in site.categories %\}
+5    <li><a href="/categories/{\{ category | first }\}/" title="view all
+6posts">{\{ category | first }\} {\{ category | last | size }\}</a>
+7    </li>
+8    {\% endfor %\}
+9</ol>

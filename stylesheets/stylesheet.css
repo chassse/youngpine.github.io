@@ -127,6 +127,16 @@ hr {
 	padding:0 6px;
 	color:blue;
 }
+.tag-list {
+	margin: 0px;
+	padding: 0px;
+}
+
+	.tag-list li {
+		display: inline-block;
+		margin: 4px;
+	}
+
 .pull-right a:link{color:blue;}
 .read-more:link{color:blue;}
 .pull-right a:visited{color:blue;}
