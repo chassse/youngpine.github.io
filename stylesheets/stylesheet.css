@@ -131,6 +131,10 @@ hr {
 	margin: 0px;
 	padding: 0px;
 }
+.tga-list li{
+	padding-left:5px;
+	color:#036;
+}
 .pull-right a:link{color:blue;}
 .read-more:link{color:blue;}
 .pull-right a:visited{color:blue;}
