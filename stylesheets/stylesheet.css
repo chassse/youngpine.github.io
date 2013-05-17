@@ -132,10 +132,10 @@ hr {
 	padding: 0px;
 }
 
-	.tag-list li {
-		display: inline-block;
-		margin: 4px;
-	}
+.tag-list li {
+	display: inline-block;
+	margin: 4px;
+}
 
 .pull-right a:link{color:blue;}
 .read-more:link{color:blue;}
